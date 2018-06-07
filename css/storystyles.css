@@ -1,0 +1,147 @@
+/*#FF5291 - Violet Red
+#EDEDED - Isabelline
+#C2C4C5 - Silver Sand
+#6F7274 - Nickel
+#494747 - Outer Space
+*/
+
+/*Global Styles
+-------------------*/
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*before,
+*after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Caveat', cursive;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+nav {
+    text-align: center;
+    background: #6F7274;
+    position: relative;
+    top: 0;
+    width: 100%;
+
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: auto;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.column-narrow {
+    width: 40%;
+    float: left;
+    padding-right: 3%;
+}
+
+.column-wide {
+    width: 62%;
+    float: left;
+}
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.purpose {
+    background: #EDEDED;
+}
+
+.mission {
+    background: #EDEDED;
+}
+
+/*Header & Footer
+-------------------*/
+
+header,
+footer {
+    background: #FF5291;
+    color: #EDEDED;
+}
+
+/*Header
+----------------*/
+
+header h1 {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    font-size: 80px;
+}
+
+/*Footer
+-------------------*/
+
+footer {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+footer h2 {
+    font-size: 60px;
+}
+
+.contactinfo a {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+/*Links
+--------------------*/
+
+a {
+    color: #494747;
+    font-weight: 600;
+}
+
+a:hover {
+    /*removes underline from hyperlink*/
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin {
+    font-size: 15px;
+
+}
